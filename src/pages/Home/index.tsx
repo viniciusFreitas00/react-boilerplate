@@ -1,4 +1,11 @@
 import Main from '../../components/Main'
+
+import * as S from './styles'
+
 export default function Home() {
-  return <Main />
+  return (
+    <S.Wrapper>
+      <Main />
+    </S.Wrapper>
+  )
 }
